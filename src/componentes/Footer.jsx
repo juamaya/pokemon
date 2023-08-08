@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <h3>AMAYA 👽 {new Date().getFullYear()}</h3>
+        <h3>AMAYA <span className='x'> 👽 </span>{new Date().getFullYear()}</h3>
       </div>
     </>
   )
 }
 
-export default Footer
+export default Footer 

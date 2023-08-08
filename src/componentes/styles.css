@@ -108,8 +108,19 @@ right-content {
   color: white;
   background-color: red;
   border-radius: 8px;
+  cursor:pointer;
 }
+
+.btn-group button:hover {
+background-color: rgb(16, 26, 204);
+}
+
 .footer {
   text-align: center;
   margin: 10px;
+}
+
+.footer h3 .x:hover{
+ 
+  font-size: 5rem;
 }

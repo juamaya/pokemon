@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <Inicio />
+      <img src="./imagenes/pokemon-1.png" alt="pokemon-1 " />
     </>
   )
 }

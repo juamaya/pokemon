@@ -12,9 +12,10 @@ const Pokeinfo = ({ data }) => {
                     <div className="abilities">
                         {
                             data.abilities.map(poke => {
+                               
                                 return (
                                     <>
-                                        <div className="group">
+                                        <div className="group" >
                                             <h2>{poke.ability.name}</h2>
                                         </div>
                                     </>
